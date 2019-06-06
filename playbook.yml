@@ -1,0 +1,14 @@
+- name: collect show commands from devices
+  hosts: all
+  connection: local
+  gather_facts: no
+  pre_tasks:
+   - include_vars: "repository.cfg"
+   - include_vars: "inputs/show-commands-to-collect.yml"
+  roles: 
+    - Juniper.junos
+    - collect-commands
+
+
+
+  
