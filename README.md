@@ -1,3 +1,5 @@
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/ksator/collect-show-commands.svg)  ![Docker Pulls](https://img.shields.io/docker/pulls/ksator/collect-show-commands.svg)  ![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/ksator/collect-show-commands/latest.svg)  ![MicroBadger Size (tag)](https://img.shields.io/microbadger/image-size/ksator/collect-show-commands/latest.svg)  
+
 # Description 
 
 This microservice collects Junos show commands  
