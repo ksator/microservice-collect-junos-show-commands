@@ -30,7 +30,7 @@ ksator/collect-show-commands   latest              bd211df7c333        18 minute
 
 Create this structure: 
 - An `inputs` directory. With these files: 
-  - An Ansible Inventory file (`hosts`) with following variables:
+  - An Ansible Inventory file (`hosts.ini`) with following variables:
     - `ansible_host`: IP of the device
     - `ansible_ssh_user`: Username to use for the connection
     - `ansible_ssh_pass`: Password to use for the connection
@@ -38,12 +38,12 @@ Create this structure:
   
 ```
 $ ls inputs 
-hosts  show-commands-to-collect.yml
+hosts.ini  show-commands-to-collect.yml
 ```
 
 Ansible inventory example: 
 ```
-$ more inputs/hosts
+$ more inputs/hosts.ini
 [spines]
 demo-qfx10k2-14   ansible_host=172.25.90.67
 demo-qfx10k2-15   ansible_host=172.25.90.68
