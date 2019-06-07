@@ -9,6 +9,9 @@ This microservice:
 - stops the container 
 - removes the container
 
+The Docker image is https://hub.docker.com/r/ksator/collect-show-commands  
+
+
 # Usage
 
 ## Install Docker
