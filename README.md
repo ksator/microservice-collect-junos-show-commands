@@ -11,7 +11,6 @@ This microservice:
 
 The Docker image is https://hub.docker.com/r/ksator/collect-show-commands  
 
-
 # Usage
 
 ## Install Docker
@@ -62,8 +61,7 @@ ansible_ssh_pass=juniper123
 Configure the details you want to collect. 
 Example:   
 ```
-$ more inputs/collector-details.yml
-
+$ more inputs/show-commands-to-collect.yml
 ---
 cli:
   - "show chassis hardware"
