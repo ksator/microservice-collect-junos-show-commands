@@ -9,7 +9,7 @@ This microservice:
 - stops the container 
 - removes the container
 
-The Docker image is https://hub.docker.com/r/ksator/collect-show-commands  
+The Docker image is [```ksator/collect-show-commands```](https://hub.docker.com/r/ksator/collect-show-commands)
 
 # Usage
 
